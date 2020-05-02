@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/App-movies/static/css/main.d5d113f0.chunk.css",
-    "main.js": "/App-movies/static/js/main.6a71173d.chunk.js",
-    "main.js.map": "/App-movies/static/js/main.6a71173d.chunk.js.map",
+    "main.css": "/App-movies/static/css/main.cabab167.chunk.css",
+    "main.js": "/App-movies/static/js/main.2e0e93b6.chunk.js",
+    "main.js.map": "/App-movies/static/js/main.2e0e93b6.chunk.js.map",
     "runtime-main.js": "/App-movies/static/js/runtime-main.635564fe.js",
     "runtime-main.js.map": "/App-movies/static/js/runtime-main.635564fe.js.map",
-    "static/js/2.4310f17b.chunk.js": "/App-movies/static/js/2.4310f17b.chunk.js",
-    "static/js/2.4310f17b.chunk.js.map": "/App-movies/static/js/2.4310f17b.chunk.js.map",
+    "static/js/2.9a70e56f.chunk.js": "/App-movies/static/js/2.9a70e56f.chunk.js",
+    "static/js/2.9a70e56f.chunk.js.map": "/App-movies/static/js/2.9a70e56f.chunk.js.map",
     "index.html": "/App-movies/index.html",
-    "precache-manifest.0e03ff4c23f5217cc3d4871e2b5d9e27.js": "/App-movies/precache-manifest.0e03ff4c23f5217cc3d4871e2b5d9e27.js",
+    "precache-manifest.d4001053ad7fe2e8c08ea508ffe1a787.js": "/App-movies/precache-manifest.d4001053ad7fe2e8c08ea508ffe1a787.js",
     "service-worker.js": "/App-movies/service-worker.js",
-    "static/css/main.d5d113f0.chunk.css.map": "/App-movies/static/css/main.d5d113f0.chunk.css.map",
-    "static/js/2.4310f17b.chunk.js.LICENSE.txt": "/App-movies/static/js/2.4310f17b.chunk.js.LICENSE.txt"
+    "static/css/main.cabab167.chunk.css.map": "/App-movies/static/css/main.cabab167.chunk.css.map",
+    "static/js/2.9a70e56f.chunk.js.LICENSE.txt": "/App-movies/static/js/2.9a70e56f.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.635564fe.js",
-    "static/js/2.4310f17b.chunk.js",
-    "static/css/main.d5d113f0.chunk.css",
-    "static/js/main.6a71173d.chunk.js"
+    "static/js/2.9a70e56f.chunk.js",
+    "static/css/main.cabab167.chunk.css",
+    "static/js/main.2e0e93b6.chunk.js"
   ]
 }
