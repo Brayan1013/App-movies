@@ -2,6 +2,7 @@ import React, { Fragment, useEffect, useState } from 'react'
 import { useParams } from 'react-router-dom';
 import axios from 'axios';
 import ReactPlayer from 'react-player';
+import '../styles/Player.css'
 
 export const Details = () => {
     let { id } = useParams();
@@ -48,7 +49,7 @@ export const Details = () => {
                             <hr />
                         </div>
                     </div>
-                    <div className="row pt-4 text-center">
+                    <div className="row pt-4 pb-5 text-center">
                         <div className="col-md-6">
                             <h2 className="text-danger">Original title: {movie.original_title}</h2>
                             <h4 className="text-info">{(movie.tagline) ? movie.tagline : null}</h4>
@@ -60,25 +61,27 @@ export const Details = () => {
                         </div>
                     </div>
                     {keyTrailer &&
-
-                        <div className="row p-5 m-5">
-                            <div className="col-md-12 m-3">
-                                <hr />
-                                <h1 className="text-center">Trailer</h1>
-                                <hr />
+                        <div className="p-3 m-3">
+                            <div className="row pb-2">
+                                <div className="col-md-12 text-center">
+                                    <h2>TRAILER</h2>
+                                </div>
                             </div>
-                            <div className="col-md-12 center">
-
+                            <div className="player-wrapper">
                                 <ReactPlayer
                                     url={`https://www.youtube.com/watch?v=${keyTrailer}`}
-                                    controls={true}
+                                    className="react-player"
+                                    width="100%"
+                                    height="100%"
+                                    controls={false}
                                 />
-
                             </div>
                         </div>
+
                     }
                 </div>
             }
+
         </Fragment>
     )
 }
